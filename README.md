@@ -18,12 +18,17 @@ linux 安裝 docker
 
 [https://docs.docker.com/engine/installation/linux/]
 
-hello world
+EX 1. hello world
 ```
 docker pull hello-world
 
 docker run hello-world
 
+```
+EX 2. Web server
+```
+ docker pull nginx
+ docker run --name some-nginx -v /some/content:/usr/share/nginx/html:ro -d nginx
 ```
 ----------------
 安裝 docker compose 
