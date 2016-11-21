@@ -18,6 +18,13 @@ linux 安裝 docker
 
 [https://docs.docker.com/engine/installation/linux/]
 
+hello world
+```
+docker pull hello-world
+
+docker run hello-world
+
+```
 ----------------
 安裝 docker compose 
 [https://docs.docker.com/compose/install/]
