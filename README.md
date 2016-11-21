@@ -18,6 +18,10 @@ linux 安裝 docker
 
 [https://docs.docker.com/engine/installation/linux/]
 
+----------------
+安裝 docker compose 
+[https://docs.docker.com/compose/install/]
+
 ---------------
 LaraDock
 Like Laravel Homestead but for Docker instead of Vagrant.
