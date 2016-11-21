@@ -28,8 +28,9 @@ docker run hello-world
 EX 2. Web server
 ```
  docker pull nginx
- docker run --name some-nginx -v /some/content:/usr/share/nginx/html:ro -d nginx
+ docker run --name some-nginx -v /some/content:/usr/share/nginx/html:ro --rm  -p 80:80 nginx
 ```
+
 ----------------
 安裝 docker compose 
 [https://docs.docker.com/compose/install/]
